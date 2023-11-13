@@ -31,7 +31,7 @@ requirements = {
         "opt-einsum",
         # ASR
         "sentencepiece==0.1.97",
-        "ctc-segmentation>=1.6.6",
+        "ctc-segmentation @ git+ssh://git@github.com/aces-inc/ctc-segmentation.git@feature/numpy",
         # TTS
         "pyworld>=0.2.10",
         "pypinyin<=0.44.0",
